@@ -1,0 +1,34 @@
+============================================================
+ SPECTRE.EXE  -  CHANGELOG
+============================================================
+v1.2  (2026-05-28)
+------------------------------------------------------------
+NEW: Auto Weight Limit Return
+  - Bot now detects when your weight limit is reached and
+    automatically warps you back to town using your
+    configured key. No more dying from overweight.
+NEW: Smart Game Window Detection
+  - One click "Set Game Window" auto-calibrates everything:
+    scan area, targeting centers, and weight detection.
+    No manual setup needed.
+IMPROVED: Zero Manual Calibration
+  - You no longer need to set your character center before
+    starting. Set Game Window handles it automatically.
+IMPROVED: Simplified Controls
+  - START and STOP merged into one toggle button.
+IMPROVED: Status Indicator
+  - Status now reliably shows green (RUNNING) and
+    red (STOPPED) in real time.
+IMPROVED: Activity Log
+  - Log now auto-scrolls to the latest activity.
+FIXED: False update popup on launch
+FIXED: Town Key field showing error on first launch
+FIXED: Garbled characters in log messages
+------------------------------------------------------------
+v1.0  (Initial Release)
+------------------------------------------------------------
+  - First public release of Spectre.exe
+  - Auto attack, multi-buff, fly wing, walk pattern
+  - KeyAuth license system
+  - Auto-update via GitHub
+============================================================
