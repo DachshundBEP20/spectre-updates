@@ -1,6 +1,46 @@
 ============================================================
  SPECTRE.EXE  -  CHANGELOG
 ============================================================
+NEW FEATURES
+------------
+[AUTO POTION]
+  - Brand new Auto Potion system for HP and SP — completely
+    standalone, works even when the bot is OFF.
+  - Set a "Use at %" threshold and a "Fill to %" target for
+    both HP and SP independently.
+  - Assign a separate hotkey for each potion type.
+  - Configurable cooldown (ms) between potion presses to
+    prevent spam.
+  - Enable HP and SP independently with their own checkboxes —
+    use one, both, or neither.
+  - Works across ALL resolutions (800x600 up to 2560x1440)
+    with zero extra calibration. RO's HP/SP bars are a fixed
+    130px wide regardless of screen size — Spectre uses that.
+[AUTO POTION - SMART SETUP]
+  - Clicking "Set Game Window" now automatically finds your
+    HP and SP bars using a live color scan — no extra steps.
+  - 3-level detection: green HP bar scan → blue SP bar scan
+    → weight pixel offset estimate. One of them always works.
+  - After first detection, bars are saved as a window offset
+    so future "Set Game Window" clicks update them instantly.
+  - "Set HP/SP Bars" button still available as a manual
+    override for players using custom RO skins or themes.
+[SESSION UPTIME TIMER]
+  - Live session clock displayed next to the Activity Log.
+  - Starts at 0:00:00 when you press START or F12.
+  - Counts up every second while the bot is running.
+  - Freezes exactly where it stopped when the bot stops —
+    so you always know how long your last session ran.
+  - Resets back to 0:00:00 at the start of a new session.
+IMPROVEMENTS
+------------
+  - "Set Game Window" now handles HP/SP bar detection in
+    addition to weight pixel and scan centers — one button
+    truly sets up everything.
+  - HOW TO START hint updated to reflect Auto Potion works
+    without the bot needing to be running.
+============================================================
+
 v1.2  (2026-05-28)
 ------------------------------------------------------------
 NEW: Auto Weight Limit Return
